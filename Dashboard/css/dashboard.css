@@ -50,7 +50,7 @@ body {
   div.content {
     margin-left: 230px;
     padding: 45px 70px;
-    height: 1000px;
+    
   }
   
 .fixed-top {
@@ -71,6 +71,11 @@ body {
 
 #navbarSupportedContent{
     width: 72%;
+}
+
+/* CONTENIDO */
+.list-group{
+    border-radius: 12px;
 }
 
 /* MEDIA QUERIES */
