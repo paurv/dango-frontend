@@ -31,14 +31,14 @@
   
 }
 
-[type="file"]:focus + label,
-[type="file"] + label:hover {
+/* [type="file"]:focus + label,
+[type="file"] + label:hover { */
   /* File upload hover state button styles */
-}
+/* } */
 
-[type="file"]:focus + label {
+/* [type="file"]:focus + label { */
   /* File upload focus state button styles */
-}
+/* } */
 
 .input-div{
   border: 1px solid #d9d9d9;

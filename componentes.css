@@ -49,6 +49,25 @@
     box-shadow: none !important;
 }
 
+.dg-btn-tercero{
+    padding-left: 18px;
+    padding-right: 18px;
+    background-color: var(--d-gray-drk);
+    color: white;
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+.dg-btn-tercero:hover{
+    color: white;
+    background-color: var(--d-gray-txt);
+}
+
+.dg-btn-tercero:focus{
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
 .dg-btn-delete{
     background-color: var(--d-pink);
     color: white;

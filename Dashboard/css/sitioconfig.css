@@ -1,0 +1,50 @@
+:root{
+    --main-color: #6555DF;
+    --d-pink: #FA71A5;
+    --d-pink-drk:#aa3d67;
+    --d-yellow: #FFDC60;
+    --d-yellow-drk: #ddbf50;
+    --d-gray: #BBBBBB;
+    --d-purp-drk: #5C587A;
+    --d-white-drk: #FBFBFB;
+    --d-gray-txt: #999BA3;
+    --d-gray-drk: #5f5f5f;
+}
+
+#modal-add-cont{
+    color: var(--d-gray-drk);
+}
+#modal-add-cont-label{
+    color: var(--d-purp-drk);
+    font-weight: 700;
+
+}
+
+/* SELECTOR IMAGENES || RADIO-BOTONES */
+[type=radio] { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* IMAGE STYLES */
+  [type=radio] + img {
+    cursor: pointer;
+  }
+  
+  /* CHECKED STYLES */
+  [type=radio]:checked + img {
+    /* outline: 2px solid var(--d-pink); */
+    box-shadow: 0 0 0pt 3pt var(--d-pink);
+    border-radius: 8px;
+  }
+
+  .descubrir-tags:hover{
+    background-color: #dddddd;
+    cursor: pointer;
+  }
+
+input[type=checkbox] {
+    transform: scale(1.5);
+}
