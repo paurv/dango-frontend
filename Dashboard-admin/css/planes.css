@@ -1,0 +1,33 @@
+:root{
+    --main-color: #6555DF;
+    --d-pink: #FA71A5;
+    --d-yellow: #FFDC60;
+    --d-gray: #BBBBBB;
+    --d-purp-drk: #5C587A;
+    --d-white-drk: #FBFBFB;
+    --d-gray-txt: #999BA3;
+    --d-dark: #616161;
+}
+
+.card img{
+    object-fit: contain;
+    padding: 20px;
+    width: 185px;
+    margin: auto;
+}
+
+.plan-dollar-sign{
+    font-size: 30px; 
+    font-weight: 600; 
+    display: flex; 
+    align-items: center; 
+    color: var(--d-purp-drk);
+}
+
+.plan-price-tag{
+    color: var(--main-color);
+}
+
+.plan-title{
+    color: var(--d-dark);
+}
