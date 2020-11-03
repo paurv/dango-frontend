@@ -14,6 +14,10 @@ body {
     margin: 0;
     font-family: "Lato", sans-serif;
   }
+
+  .nav-name{
+    padding-top: 12px;
+  }
   
   .sidebar {
     margin: 0;

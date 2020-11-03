@@ -9,6 +9,10 @@
     --d-dark: #616161;
 }
 
+.card{
+    width: initial;
+}
+
 .card img{
     object-fit: contain;
     padding: 20px;
@@ -31,3 +35,17 @@
 .plan-title{
     color: var(--d-dark);
 }
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 700px) {
+    .card{
+        width: initial;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .card{
+        width: fit-content;
+    }
+  }
