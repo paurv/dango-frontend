@@ -11,6 +11,20 @@
     --d-gray-drk: #5f5f5f;
 }
 
+.CodeMirror {
+  resize: vertical;
+  overflow: auto !important;
+  height: 150px;
+}
+
+.CodeMirror > ::-webkit-scrollbar-thumb  {
+  background: rgba(129, 129, 129, 0.288);
+}
+
+.CodeMirror > ::-webkit-scrollbar-track  {
+  background: transparent;
+}
+
 .tile-primero{
   color: var(--main-color);
   font-weight: 600;
